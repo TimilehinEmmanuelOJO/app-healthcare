@@ -5,3 +5,41 @@
     border-color: #28A84A;
     width: 172px;
 }
+#title{height: 116px;
+    width: 588px;
+    text-align: left;
+    position: relative;
+    left: 60px;
+    top: 120px;
+    }
+    #tes{
+        position: relative;
+        top: 120px;
+        left: 62px;
+        width: 600px;
+    }
+    .overlap{
+        border-radius: 20px;
+        position: relative;
+        top: -80px;
+        box-shadow:5px 10px rgb(255, 255, 255);
+    }
+    .case{
+        position: relative;
+        margin-top: 80px;
+        margin-left: 70px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .sub{
+        position: relative;
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 16px;
+    }
+    .real{
+        position: relative;
+        left: -200px;
+        top: 73px;
+    }
+    
