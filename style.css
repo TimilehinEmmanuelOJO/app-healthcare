@@ -1,3 +1,8 @@
+@media(max-width:1000px){
+    .navbar{
+        display:block
+    }
+}
 #btn{
     background: transparent;
     color: #28A84A;
@@ -5,6 +10,10 @@
     border-color: #28A84A;
     width: 172px;
 }
+#btn:hover{background-color: green;
+            color: #FFFFFF;        
+}
+
 #title{height: 116px;
     width: 588px;
     text-align: left;
@@ -24,6 +33,13 @@
         top: -80px;
         box-shadow:5px 10px rgb(255, 255, 255);
     }
+    .see{display: none;}
+    @media(max-width:1000px){.overlap{display: none;}
+                            #tes{display: none;}
+                        #title{margin-top: -100px;}
+                    .cold{margin-top: 50px;}
+                .see{display:block ;}
+            #cont{margin-top: 510px; text-align: center;height: 700px; background-color: rgb(24, 17, 6);}}
     .case{
         position: relative;
         margin-top: 80px;
@@ -42,4 +58,26 @@
         left: -200px;
         top: 73px;
     }
-    
+    .navbar-bottom {
+        min-height: 300px;
+        margin-top: 100px;
+        background-color: #28364f;
+        padding-top: 35px;
+        color:#FFFFFF;
+        }
+        .box1{
+            height: 150px;
+            width: 287px;
+            background-color: #262D41;
+            border-radius: 30px;
+            border-bottom-style: solid;
+            border-width: thick;
+            border-bottom-color: #01DADC;
+            margin-left: 100px;
+        }
+        .box2{
+
+        }
+        .box3{
+
+        }
