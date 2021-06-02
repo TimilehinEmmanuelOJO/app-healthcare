@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App-healthcare</title>
     <link rel="stylesheet" href="style.css">
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
-<body style="height: 2000px;">
+<body style="height: 1500px;">
     <Head>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand mx-5"><img src="images\Gricd Logo1.png" alt="Logo1"></a>
-              <div class="d-flex">
-                <a class="nav-link active mx-3" aria-current="page" href="#" style="color:black">Home</a>
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 sticky-top">
+              <div class="container-fluid">
+                <a class="navbar-brand mx-5"><img src="images\Gricd Logo1.png" alt="Logo1"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 150px;">
+                  <a class="nav-link active mx-3" aria-current="page" href="#" style="color:black">Home</a>
                 <a class="nav-link mx-3" href="#" style="color:black">Products</a>
                 <a class="nav-link mx-3" href="#" style="color:black">Applications</a>
                 <a class="nav-link mx-3" href="#" style="color:black">Case Study</a>
                 <a class="nav-link mx-3" href="#" style="color:black">Pricing</a>
                 <a class="nav-link mx-3" href="#" style="color:black">Our Story</a>
                 <button class="btn btn-primary" id="btn">Download</button>
+                </div>
               </div>
-            </div>
-          </nav>
+            </nav>
+
     </Head>
     <main>
       <div class="card bg-dark text-white">
@@ -36,7 +40,7 @@
              lack of inadequate cold chain equipment.</p>
         </div>
       </div>
-      <div class="container bg-white overlap" style="height: 160px;">
+      <div class="container-fluid bg-white overlap" style="height: 160px;">
         <div class="row">
           <div class="col text-center" style="margin: 50px 50px;">
             <img src="images\NCDC 1.png" alt="" class="img-fluid">
@@ -52,26 +56,26 @@
           </div>
         </div>
       </div>
-      <div style="background-color:  #E5E5E5; position: relative; top: -180px; z-index: -10; height: 1500px;">
+      <div style="background-color:  #E5E5E5; position: relative; top: -180px; z-index: -10; height: 600px;">
         <div style="padding: 150px; 0px">
-          <div class="col-4 p-3 fw-bold">
+          <div class="col-4 p-3 fw-bold cold">
             Cold Chain Monitoring for Healthcare
           </div>
-          <div class="col-sm-6 p-3 mb-5">
-            <img src="images\Vector 1.png" alt="">
+          <div class="col-sm-6 p-3">
+            <img src="images\Vector 1.png" class="img-fluid" alt="">
           </div>
           <div class="container">
             <div class="row row-cols-2">
-              <div class="col text-muted mb-5">Most pharmaceutical products like vaccines, diluents etc. are temperature 
+              <div class="col text-muted mb-0">Most pharmaceutical products like vaccines, diluents etc.  <p class="see">See More</p>are temperature
                 sensitive. They require special handling from the moment they are manufactured
                  to when they are stored, transported and distributed to the final consumer. For
                  them to remain potent, temperature sensitive pharmaceuticals must be kept
                    within the cold chain at the manufacturers recommended temperature. <br>
                 <BR>
-                Therefore it is compulsory to both maintain the cold chain using a network of cold stores, 
+                Therefore it is compulsory to both maintain the cold chain<p class="see">See More</p> using a network of cold stores, 
                 freezers and other refrigerated systems, and to monitor the condition of pharmaceuticals 
                 during their storage, transport and distribution, in real time.</div>
-              <div class="col text-muted mb-5">Therefore it is compulsory to both maintain the cold chain using a network of cold stores,
+              <div class="col text-muted mb-0">Therefore it is compulsory to both maintain the cold chain using a network of cold stores,
                  freezers and other refrigerated systems, and to monitor the condition of pharmaceuticals 
                  during their storage, transport and distribution, in real time. <br>
   
@@ -82,21 +86,36 @@
                  of the cold chain can take proactive decisions that reduce damages or loss of integrity.</div>
             </div>
           </div>
-          <div class="container mt-5">
-            <div class="row">
-              <div class="col d-flex flex-column justify-content-around">
-              <div class="col-sm-5 col-md-3"><img src="images\NCDC 1.png" alt=""></div>
-              <div class="col-sm-5 col-md-3"><img src="images\NCDC 1.png" alt=""></div>
-              <div class="col-sm-5 col-md-3"><img src="images\NCDC 1.png" alt=""></div>
-              </div>
-              <div class="col">
-              <img src="images\image 8.png" alt="">
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="container-fluid" style="background-color:  #E5E5E5; position: relative; top: -200px;" >
+        <div class="row">
+          <div class="col-sm-4 d-flex flex-column justify-content-around mt-5 pt-5 mb-5">
+          <div class="box1 mb-3" style="">
+            <h3 class="text-center fw-bold fs-6 mt-5" style="color: white;">Monitor Remotely</h3>
+            <p style="color: white; font-size: 15px;" class="text-center text-mute mb-3">Track temperature and humidity 
+              variables in real-time
+            </p>
+          </div>
+          <div class="box1 mb-3" style="background-color:#F0F8FF; border: none;">
+            <h3 class="text-center fw-bold fs-6 mt-5" style="color:#748494;">Improve customer trust</h3>
+            <p style="color:#748494; font-size: 15px;" class="text-center text-mute mb-3">Generate quality assurance reports 
+              that build your integrity.
+            </p>
+          </div>
+          <div class="box1" style="background-color:#F0F8FF; border: none;">
+            <h3 class="text-center fw-bold fs-6 mt-5" style="color:#748494;">Real-time alarms</h3>
+            <p style="color:#748494; font-size: 15px;" class="text-center text-mute mb-3">Get alarms once an excursion 
+              is detected.
+            </p>
+          </div>
+          </div>
+          <div class="col-sm-8 mt-5 pt-5">
+          <img src="images\image 8.png" alt="" class="img-fluid" style="width:750px ;">
           </div>
         </div>
       </div>
-        <div class="" style="height: 600px; background-color: #F7F7F7; position: relative; top: -200px;">
+        <div class="" style="height: 700px; background-color: #F7F7F7; position: relative; top: -220px;">
           <div class="d-flex flex-column m-3 mb-5" style="position: relative; left: 140px; top: 50px; width: 200px;">
             <div class="p-2 bd-highlight fw-bold fs-4">Use Cases</div>
             <div class="col-sm-6 p-3 mb-5">
@@ -135,71 +154,48 @@
 
     </main>
     <footer class="w-100">
-      <div class="container-fluid" style="background-color: rgb(160, 248, 138); position: relative; top: -200px; height: 400px;">
+      <div class="container-fluid" id style="background-color: rgb(160, 248, 138); position: relative; top: -250px; height: 1000px;">
         <div class="row align-items-center">
-          <div class="col-sm-4 mt-2">
+          <div class="col-sm-4 mt-2" style="margin-left: 0px;">
             <img src="images\Gricd Logo1.png" alt="">
             <p class="w-100 text-muted">Real-time cold chain monitoring that power <br> intelligent decisions.</p>
           </div>
           <div class="col-sm-2">
             <h3 class="fs-6 fw-bold mt-5 pt-5">Company</h3>
-            <p class="text-muted">About Us</p>
-            <p class="text-muted">Case Studied</p>
-            <p class="text-muted">News</p>
-            <p class="text-muted">Contacts</p>
+            <a href="" style="text-decoration: none;"><p class="text-muted">About Us</p>
+              <p class="text-muted">Case Studied</p>
+              <p class="text-muted">News</p>
+              <p class="text-muted">Contacts</p></a>
           </div>
           <div class="col-sm-2">
             <h3 class="fs-6 fw-bold pt-5 mt-5">Applications</h3>
-            <p class="text-muted">Agriculture</p>
-            <p class="text-muted">Health Care</p>
-            <p class="text-muted">News</p>
-            <p class="text-muted">Contacts</p>
+            <a href="" style="text-decoration: none;"><p class="text-muted">Agriculture</p>
+              <p class="text-muted">Health Care</p>
+              <p class="text-muted">News</p>
+              <p class="text-muted">Contacts</p></a>
           </div>
           <div class="col-sm-1">
             <h3 class="fs-6 fw-bold mt-5">Services</h3>
-            <p class="text-muted">Get Suport</p>
-            <p class="text-muted">Pricing</p>
-            <p class="text-muted">Help Center</p>
+            <a href="" style="text-decoration: none;"><p class="text-muted">Get Suport</p>
+              <p class="text-muted">Pricing</p>
+              <p class="text-muted">Help Center</p></a>
             
           </div>
           <div class="col-sm-2 w-25">
-            <h3 class="fs-6 fw-bold text-center" style="margin: 0px 0px 70px 0px;">Social</h3>
-            <div class="row text-center" style="margin: 0px 0px 0px 0px;">
-              <i class="bi bi-twitter" style="color:red;"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-three-dots"></i>
+            <h3 class="fs-6 fw-bold text-center" style="margin: 0px 0px 60px 0px;">Social</h3>
+            <div class="row">
+              <a href="" style="text-decoration: none; color: gray; margin: 0px 0px 0px 0px; padding: -40px 0px 0px 0px;" class="text-center">
+                <i class="bi bi-twitter col-sm-2"></i>
+              <i class="bi bi-facebook col-sm-2"></i>
+              <i class="bi bi-instagram col"></i>
+              <i class="bi bi-three-dots col"></i>
+              </a>
             </div>
           </div>
         </div>
-        
+        <div class="text-muted text-center" style="margin-top: 200px;">©2020 Gricd</div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<nav class="navbar navbar-inverse navbar-bottom" style="padding:0 0 120px 0">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-4">
-              <h5 id='footer-header'> SITEMAP </h3>
-              <div class="col-sm-4" style="padding: 0 0 0 0px">
-                  <p>News</p>
-                  <p>contact</p>
-              </div>
-              <div class="col-sm-4" style="padding: 0 0 0 0px">
-                  <p>FAQ</p>
-                  <p>Privacy Policy</p>
-              </div>
-          </div>
-          <div class="col-sm-4">
-              <h5 id='footer-header'> xxxx </h3>
-              <p>yyyyyyyyyyyyy</p>
-          </div>
-          <div class="col-sm-4">
-              <h5 id='footer-header'> xxxxx </h3>
-              <p>uuuuuuuuuuuuuuu</p>
-          </div>
-      </div>
-  </div>
-</nav>
