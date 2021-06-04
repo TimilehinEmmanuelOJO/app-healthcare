@@ -34,12 +34,18 @@
         box-shadow:5px 10px rgb(255, 255, 255);
     }
     .see{display: none;}
+    .bod{height: 1500px; background-color: rgb(160, 248, 138)}
+    .use{height: 700px; background-color: #F7F7F7; position: relative; top: -220px;}
     @media(max-width:1000px){.overlap{display: none;}
                             #tes{display: none;}
                         #title{margin-top: -100px;}
                     .cold{margin-top: 50px;}
                 .see{display:block ;}
-            #cont{margin-top: 510px; text-align: center;height: 700px; background-color: rgb(24, 17, 6);}}
+            #cont{margin-top: 510px; text-align: center;height: 700px; background-color: rgb(24, 17, 6);}
+            footer{position: relative; top: 200px;}
+            .use{height: 1300px;}
+            .bod{background-color: rgb(160, 248, 138); }
+        }
     .case{
         position: relative;
         margin-top: 80px;
