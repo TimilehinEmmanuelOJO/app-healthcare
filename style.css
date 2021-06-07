@@ -35,16 +35,22 @@
     }
     .see{display: none;}
     .bod{height: 1500px; background-color: rgb(160, 248, 138)}
+    .foot{background-color: rgb(160, 248, 138); position: relative; top: -250px; height: 200px;}
     .use{height: 700px; background-color: #F7F7F7; position: relative; top: -220px;}
-    @media(max-width:1000px){.overlap{display: none;}
+    @media(max-width:600px){.overlap{display: none;}
                             #tes{display: none;}
-                        #title{margin-top: -100px;}
-                    .cold{margin-top: 50px;}
+                        #title{margin-top: -100px; margin-left: -70px;}
+                    .cold{margin-top: 50px; margin-left: -80px;}
+                    .line{margin-left: -80px;}
                 .see{display:block ;}
+                .long{margin-left: -80px;}
+                .long1{margin-left: -0px;}
             #cont{margin-top: 510px; text-align: center;height: 700px; background-color: rgb(24, 17, 6);}
             footer{position: relative; top: 200px;}
             .use{height: 1300px;}
-            .bod{background-color: rgb(160, 248, 138); }
+            .foot{background-color: rgb(255, 255, 255); position: relative; top: -250px; height: 200px;}
+            .bod{background-color: rgb(255, 255, 255); }
+            
         }
     .case{
         position: relative;
@@ -86,4 +92,9 @@
         }
         .box3{
 
+        }
+        @media (max-width: 600px){
+            .box1{
+            margin-left: 30px;
+        }
         }
