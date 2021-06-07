@@ -44,7 +44,7 @@
                     .line{margin-left: -80px;}
                 .see{display:block ;}
                 .long{margin-left: -80px;}
-                .long1{margin-left: -0px;}
+                .long1{margin-left: -0px; display:none;}
             #cont{margin-top: 510px; text-align: center;height: 700px; background-color: rgb(24, 17, 6);}
             footer{position: relative; top: 200px;}
             .use{height: 1300px;}
