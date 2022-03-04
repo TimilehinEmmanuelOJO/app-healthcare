@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 /*Utilities section*/
 
 *{
@@ -9,7 +9,7 @@
 body{
     line-height: 1.6;
     background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 100%;
     color: rgb(0, 0, 0);
 }
@@ -67,3 +67,30 @@ img{
     width: 100%;
 }
 button{cursor: pointer;}
+
+/*Nav Section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top:41px;
+    margin-left: 60px;
+    margin-bottom: 22px;
+}
+nav img{
+    width: 107px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 50px;
+    font-size:18px;
+}
+nav ul li a{color: rgba(33, 37, 41, 1); text-decoration: none; font-weight: 500;}
+nav ul li button{
+    margin-right: 60px;
+    width: 172px;height: 48px;
+    border: 2px solid rgba(40, 168, 74, 1);
+    border-radius: 30px;
+    color: #28A84A; background-color: #ffffff;
+}
